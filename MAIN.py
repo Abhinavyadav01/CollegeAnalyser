@@ -5,7 +5,7 @@ import datetime
 import matplotlib.pyplot as plt
 
 
-st.set_page_config(page_title="College Analyser", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Cutoff Lens", layout="wide", initial_sidebar_state="collapsed")
 
 
 st.markdown("""
@@ -36,13 +36,13 @@ st.markdown("""
     }
     </style>
 """,unsafe_allow_html=True)
-st.markdown('<div class="title">COLLEGE ANALYSER</div>',unsafe_allow_html=True)
+st.markdown('<div class="title">CUTOFF LENS</div>',unsafe_allow_html=True)
 st.markdown('<div class="head">Explore. Compare. Decide. Your Gateway to Selecting the Best NITs and IITs Visually</div>',unsafe_allow_html=True)
 
-st.markdown("""<div style='margin-top: 65px;'> <span style='font-size: 18px; font-weight: 600;'>The COLLEGE ANALYSER is an intuitive, visually-driven, and highly interactive web platform built to empower users in making informed decisions about India’s premier engineering institutions
+st.markdown("""<div style='margin-top: 65px;'> <span style='font-size: 18px; font-weight: 600;'>The CUTOFF LENS is an intuitive, visually-driven, and highly interactive web platform built to empower users in making informed decisions about India’s premier engineering institutions
               — the Indian Institutes of Technology (IITs) and National Institutes of Technology (NITs). In a country where engineering aspirants often rely on scattered information, word of mouth, or incomplete rankings,
               this platform serves as a centralized hub for exploring, analyzing, and comparing critical data points that actually matter when selecting a college. From NIRF rankings and geographical locations to connectivity
-              via railways and airports, users can now make choices with clarity, context, and confidence. Whether you're a student preparing for JEE, a parent researching the best-fit college for your child, or an education 
+              via railways and airports, users can now make choices with clarity, context, and confidence. Whether you're a student preparing for JEE, a parent researching the best-fit college for your child, or an education
               analyst tracking academic trends, this dashboard is designed to deliver reliable insights in a clean, elegant format. It eliminates information overload by turning complex data into visual plots and comparisons, allowing for quick yet informed judgments.</span> </div>""",unsafe_allow_html=True)
 
 st.markdown("""<div style='margin-top: 20px;'> <span style='font-size: 25px; font-weight: 600;'>📊 What You’ll Find Inside</span></div>""",unsafe_allow_html=True)
@@ -136,32 +136,32 @@ with cols[1]:
                 text-align: center;
                 height: 250px;
             }
-    
+
             .dev-card h2 {
                 margin-bottom: 5px;
             }
-    
+
             .dev-card p {
                 margin: 5px 0 15px;
                 font-size: 16px;
                 color: #ddd;
             }
-    
+
             .dev-links a {
                 margin: 0 8px;
                 text-decoration: none;
                 color: #00bfff;
                 font-weight: bold;
             }
-    
+
             .dev-links a:hover {
                 text-decoration: underline;
             }
         </style>
-    
+
         <div class="dev-card">
             <h2> Abhinav Yadav</h2>
-            <p>B.Tech | NIT Jalandhar<br>Front End Dev • Data Analyst • UI/UX Explorer</p>
+            <p>B.Tech | NIT Jalandhar<br>Data Analyst • SQL | Power BI | Python</p>
             <div class="dev-links">
                 <a href="mailto:abhinav.codes01@gmail.com" target="_blank">Email</a>
                 <a href="http://github.com/Abhinavyadav01" target="_blank">GitHub</a>
@@ -232,11 +232,8 @@ st.markdown("""
   width: 0;
   animation: typing 4s steps(40, end) forwards;
 }
-</style>
+</
 
-<div class="typewriter">🙌 Thanks for Visiting!<br>Exciting things are in the pipeline.  
+<div class="typewriter">🙌 Thanks for Visiting!<br>Exciting things are in the pipeline.
 <br>Keep exploring, 🌱 keep growing — and let’s build a smarter tomorrow together 💡🚀</div>
 """, unsafe_allow_html=True)
-
-
-
